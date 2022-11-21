@@ -1,13 +1,98 @@
-body {
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
   margin: 0;
+}
+
+body {
+  background-color: #F5F5F5;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+main {
+  width: 100%;
+  margin: 30px auto;
+}
+
+.job {
+  height: 160px;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.job_distription {
+  width: 70%;
+  font-size: 0.9rem;
+}
+
+.title {
+  color: #3A4562;
+}
+
+.name,
+.location {
+  color: #878D9D;
+  padding-top: 5px;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+@media (max-width: 1399.98px) {
+  .container {
+    max-width: 1190px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 990.98px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .container {
+    max-width: 390px;
+  }
 }
