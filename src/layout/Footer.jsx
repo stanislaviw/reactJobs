@@ -1,11 +1,11 @@
-import {Example as Pagination} from '../components/Pagination';
+import {Pagination} from '../components/Pagination';
 
 function Footer() {
 
     return (
-        <div className="footer">
+        <footer className="container">
             <Pagination />
-        </div>
+        </footer>
     )
 }
 
