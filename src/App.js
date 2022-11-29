@@ -1,11 +1,16 @@
-import {Main} from './layout/Main';
-import {Footer} from './layout/Footer'
+import {JobBoard} from './pages/JobBoard';
+import {JobDetails} from './pages/JobDetails';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Main />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path='/' element={<JobBoard />} />
+          <Route path='/details/:id' element={<JobDetails />}></Route>
+        </Routes>
+      </Router>
     </>
   );
 }

@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {Jobs} from '../components/Jobs'
+import {Jobs} from '../../components/jobBoard/Jobs'
 
 function Main () {
     const [jobs, setJobs] = useState([]);

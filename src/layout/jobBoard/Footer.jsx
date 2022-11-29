@@ -1,4 +1,4 @@
-import {Pagination} from '../components/Pagination';
+import {Pagination} from '../../components/jobBoard/Pagination';
 
 function Footer() {
 
