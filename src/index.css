@@ -37,7 +37,7 @@ code {
 
 .container {
   margin: 0 auto;
-  max-width: 1300px;
+  max-width: 1200px;
 }
 
 main {
@@ -128,11 +128,60 @@ img{
   border-bottom: 6px solid #5876C5;
 }
 
-@media (max-width: 1298.98px) {
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+.container_details {
+  background-color: #fff;;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.title_details {
+  width: 60%;
+}
+
+.header_details {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dee2ec;
+}
+
+.map {
+  width: 200px;
+  height: 430px;
+}
+
+.map_details {
+  float: right;
+}
+
+.button_deteils {
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  background-color: #384564;
+  color: #fff;
+  font-size: 12px;
+  height: 50px;
+  width: 120px;
+}
+
+.header_details {
+  margin-top: 20px;
+  padding: 10px 0;
+  color: #3A4562;
+}
+
+.title_details_job {
+  font-size: 1.9rem;
+}
+
+.text_header_details {
+  font-size: 1.2rem;
+}
+
+.icon_header {
+  margin: 0 5px 0 15px;
+  position: relative;
+  top: 5px;
 }
 
 @media (max-width: 1199.98px) {
