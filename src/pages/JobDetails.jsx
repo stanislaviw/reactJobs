@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Header} from '../layout/jobDetails/Header';
 import {Map} from '../components/jobDetails/Map';
-import {Main} from '../layout/jobDetails/Main';
+import {MainJobDetails} from '../layout/jobDetails/Main';
 
 function JobDetails () {
     const [jobs, setJobs] = useState([]);
@@ -19,7 +19,7 @@ function JobDetails () {
         <div className='container_details'>
             <div className='title_details'>
                 <Header />
-                <Main jobs = {jobs}/>
+                <MainJobDetails jobs = {jobs}/>
             </div>
             <div className="map_details">
                 <Map />

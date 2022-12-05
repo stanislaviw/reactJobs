@@ -1,7 +1,23 @@
 function Map () {
     return (
         <div className="map">
-            <h2>Hello from Map</h2>
+            <div className="map_title">
+                <p>
+                    Department name.
+                </p>
+                <p>
+                    Department name.
+                </p>
+                <p>
+                    Department name.
+                </p>
+                <p>
+                    Department name.
+                </p>
+            </div>
+            <div className="google_map">
+
+            </div>
         </div>
     )
 }
