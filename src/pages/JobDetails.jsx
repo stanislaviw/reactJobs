@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Header} from '../layout/jobDetails/Header';
-import {Map} from '../components/jobDetails/Map';
 import {MainJobDetails} from '../layout/jobDetails/Main';
+import {Map} from '../components/jobDetails/Map';
 
 function JobDetails () {
     const [jobs, setJobs] = useState([]);
@@ -13,6 +13,8 @@ function JobDetails () {
             setJobs(data);
         })
     }, [])
+
+    
 
 
     return (
