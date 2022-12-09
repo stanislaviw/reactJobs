@@ -11,7 +11,7 @@ function Job (props) {
     } = props;
 
     return (
-       <Link to={`/reactjobs/details/${id}`}> 
+       <Link to={`/reactJobs/details/${id}`}> 
             <div className="job">
                 <div className="img">
                     <img  src={pictures.map(item => item + `?random=${id}`)} alt="pictures"/>

@@ -101,7 +101,7 @@ function JobDetailsItem (props) {
                     </div>
                 </div>
                 <div className='return_button'>
-                    <Link className='return_button_link' to="/"> <i className="tiny return_icon material-icons">keyboard_arrow_left</i> RETURN TO JOB BOARD</Link>
+                    <Link className='return_button_link' to="/reactJobs"> <i className="tiny return_icon material-icons">keyboard_arrow_left</i> RETURN TO JOB BOARD</Link>
                 </div>
             </main>
             
