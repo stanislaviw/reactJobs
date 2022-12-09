@@ -8,8 +8,8 @@ function App() {
   return (
     <>
         <Routes>
-          <Route path='/' element={<JobBoard />} />
-          <Route path="details/:id" element={<JobDetails />} />
+          <Route path='/reactjobs' element={<JobBoard />} />
+          <Route path="/reactjobs/details/:id" element={<JobDetails />} />
         </Routes>
     </>
   );

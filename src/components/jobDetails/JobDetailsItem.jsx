@@ -7,13 +7,9 @@ import {Link} from 'react-router-dom';
 function JobDetailsItem (props) {
 
     const {
-        id,
         benefits,
         description,
         employment_type,
-        location,
-        name,
-        phone,
         pictures,
         salary,
         title,
