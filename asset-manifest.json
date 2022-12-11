@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reactJobs/static/css/main.413d007e.css",
-    "main.js": "/reactJobs/static/js/main.15b85bd7.js",
+    "main.js": "/reactJobs/static/js/main.20f23f86.js",
     "static/media/Map.svg": "/reactJobs/static/media/Map.d895b342df05348d72b7.svg",
     "index.html": "/reactJobs/index.html",
     "static/media/Call.svg": "/reactJobs/static/media/Call.9c9206dd3c1c0d802c1f.svg",
     "main.413d007e.css.map": "/reactJobs/static/css/main.413d007e.css.map",
-    "main.15b85bd7.js.map": "/reactJobs/static/js/main.15b85bd7.js.map"
+    "main.20f23f86.js.map": "/reactJobs/static/js/main.20f23f86.js.map"
   },
   "entrypoints": [
     "static/css/main.413d007e.css",
-    "static/js/main.15b85bd7.js"
+    "static/js/main.20f23f86.js"
   ]
 }
